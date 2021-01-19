@@ -1,103 +1,46 @@
 /**
  * @name Square Icons
- * @author tropix126
- * @version 0.1-Alpha
+ * @author tropix126 & ForgottenAngel
+ * @version 0.2-Alpha
  * @description Turns a buncha round stuff into squares.
 */
 
-.icon-27yU2q,
-.folderIconWrapper-226oVY,
-.iconInactive-98JN5i,
-#app-mount .circleIconButton-jET_ig,
-.guildsError-b7zR5H,
-.guildIconUnavailable-5PMHDN,
-.guildIcon-lQ0uiM {
-    border-radius:var(--guilds-roundness);
+#app-mount [role=menu],
+#app-mount .autocompleteInner-zh20B_,
+#app-mount .container-3ayLPN,
+#app-mount .container-enaOkj,
+#app-mount .container-2dqNWc,
+#app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
+#app-mount .emojiPicker-3PwZFl,
+#app-mount .messagesPopoutWrap-1MQ1bW,
+#app-mount .modal-yWgWj-:not(.slide-2pHaq5),
+#app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
+#app-mount .root-SR8cQa,
+#app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
+#app-mount .userPopout-3XzG_A,
+#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
+#app-mount .quickswitcher-3JagVE,
+#app-mount .root-1gCeng.wrapper-2ZbzR9,
+#app-mount .modalRoot-1Kx4Hb,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih,
+#app-mount .popoutContainer-1MXdqN,
+#app-mount .root-1gCeng:not(.modal-qgFCbT),
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before,
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before,
+#app-mount .sidebar-2K8pFh,
+#app-mount .jumpToPresentBar-G1R9s6,
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA::after,
+#app-mount .container-3ayLPN .react-datepicker__month,
+#app-mount .container-enaOkj,
+#app-mount .container-3iAQ-0,
+#app-mount .uploadModal-2ifh8j:before,
+#app-mount .uploadModal-2ifh8j:after,
+#app-mount .root-1gCeng .input-UJ9Tr3,
+#app-mount .quickswitcher-3JagVE .scrollerOuter-3FLELE,
+#app-mount .perksModal-fSYqOq,
+#app-mount .bda-link,
+#app-mount #bd-customcss-attach-controls button,
+html.platform-osx .macButtons-2MuSAC {
+  border-radius: var(--user-roundness);
 }
 
-.expandedFolderBackground-2sPsd- {
-	border-radius: var(--guilds-roundness);
-}
-
-.folderIconWrapper-226oVY[style*="background-color: rgba(114, 137, 218, 0.4);"] .closedFolderIconWrapper-15K9MK::before {
-	border-radius:var(--guilds-roundness);
-}
-
-.unavailableBadge-3k7iq_ {
-	border-radius: var(--guilds-roundness);
-}
-
-.avatarContainer-2inGBK {
-	border-radius:var(--user-roundness);
-}
-
-.avatar-3bWpYy,
-.clickableAvatar-1wQpeh,
-.emptyUser-7txhlW {
-	border-radius:var(--user-roundness);
-}
-
-.powercord-spotify .avatar-SmRMf2 {
-  border-radius:var(--user-roundness) !important;
-}
-
-.cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e {
-	border-radius: var(--user-roundness);
-}
-
-.avatar-VxgULZ {
-	border-radius:var(--user-roundness);
-}
-
-#app-mount .chat-3bRxxu .invite-18yqGF .wrapper-3t9DeA,
-.partyMemberEmpty-2iyh5g,
-.moreUsers-1sZP3U {
-	border-radius: var(--user-roundness) !important;
-}
-
-.embedAuthorIcon--1zR3L {
-	border-radius:var(--user-roundness);
-}
-
-.callAvatarVideo-2ItXvV,
-.callAvatarBorder-uWp8Ga {
-	border-radius:var(--user-roundness);
-}
-
-.infoBar-U6oBFk .infoBarEmoji-3Ab8rZ {
-	border-radius:var(--guilds-roundness);
-}
-
-.bd-toasts .toast-inner .toast-avatar {
-	border-radius: var(--user-roundness);
-}
-
-.callAvatarVoice-29N_wG,
-.callAvatarWrapper-3Ax_xH.voice-3bPYC- .ripple-1B3VJU {
-	border-radius:var(--user-roundness);
-}
-
-.displayAvatar-1wWlVM {
-	border-radius:var(--user-roundness) !important;
-}
-
-.authBox-hW6HRx .title-jXR8lp::before {
-	border-radius:var(--user-roundness);
-}
-
-.card-3DjzTQ .guildIcon-3W0pfo {
-	border-radius:var(--guilds-roundness);
-}
-
-.gameIcon-gg34Dz {
-	border-radius:var(--user-roundness);
-}
-
-#app-mount .wrapper-3t9DeA rect {
-	rx:var(--user-roundness);
-	ry:var(--user-roundness);
-}
-
-#app-mount .wrapper-3t9DeA[style*="height: 32px"] foreignObject + svg + rect[width="25"] {
-	rx: var(--user-roundness);
-}
