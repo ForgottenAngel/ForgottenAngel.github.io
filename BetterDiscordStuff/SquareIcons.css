@@ -1,7 +1,7 @@
 /**
  * @name Square Icons
- * @author tropix126 & ForgottenAngel
- * @version 0.2-Alpha
+ * @author ForgottenAngel
+ * @version 0.21-Alpha
  * @description Turns a buncha round stuff into squares.
 */
 
@@ -25,8 +25,6 @@
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih,
 #app-mount .popoutContainer-1MXdqN,
 #app-mount .root-1gCeng:not(.modal-qgFCbT),
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before,
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before,
 #app-mount .sidebar-2K8pFh,
 #app-mount .jumpToPresentBar-G1R9s6,
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA::after,
@@ -40,6 +38,14 @@
 #app-mount .perksModal-fSYqOq,
 #app-mount .bda-link,
 #app-mount #bd-customcss-attach-controls button,
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before,
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before,
+#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig,
+#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig.selected-ugP_am, #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig:hover,
+#app-mount .guilds-1SWlCJ .folder-21wGz3,
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
+#app-mount .wrapper-1Rf91z .homeIcon-tEMBK1,
+#app-mount .wrapper-1Rf91z .guildsError-b7zR5H,
 html.platform-osx .macButtons-2MuSAC {
   border-radius: var(--user-roundness);
 }
