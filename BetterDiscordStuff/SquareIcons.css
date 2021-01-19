@@ -1,0 +1,103 @@
+/**
+ * @name Square Icons
+ * @author tropix126
+ * @version 0.1-Alpha
+ * @description Turns a buncha round stuff into squares.
+*/
+
+.icon-27yU2q,
+.folderIconWrapper-226oVY,
+.iconInactive-98JN5i,
+#app-mount .circleIconButton-jET_ig,
+.guildsError-b7zR5H,
+.guildIconUnavailable-5PMHDN,
+.guildIcon-lQ0uiM {
+    border-radius:var(--guilds-roundness);
+}
+
+.expandedFolderBackground-2sPsd- {
+	border-radius: var(--guilds-roundness);
+}
+
+.folderIconWrapper-226oVY[style*="background-color: rgba(114, 137, 218, 0.4);"] .closedFolderIconWrapper-15K9MK::before {
+	border-radius:var(--guilds-roundness);
+}
+
+.unavailableBadge-3k7iq_ {
+	border-radius: var(--guilds-roundness);
+}
+
+.avatarContainer-2inGBK {
+	border-radius:var(--user-roundness);
+}
+
+.avatar-3bWpYy,
+.clickableAvatar-1wQpeh,
+.emptyUser-7txhlW {
+	border-radius:var(--user-roundness);
+}
+
+.powercord-spotify .avatar-SmRMf2 {
+  border-radius:var(--user-roundness) !important;
+}
+
+.cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e {
+	border-radius: var(--user-roundness);
+}
+
+.avatar-VxgULZ {
+	border-radius:var(--user-roundness);
+}
+
+#app-mount .chat-3bRxxu .invite-18yqGF .wrapper-3t9DeA,
+.partyMemberEmpty-2iyh5g,
+.moreUsers-1sZP3U {
+	border-radius: var(--user-roundness) !important;
+}
+
+.embedAuthorIcon--1zR3L {
+	border-radius:var(--user-roundness);
+}
+
+.callAvatarVideo-2ItXvV,
+.callAvatarBorder-uWp8Ga {
+	border-radius:var(--user-roundness);
+}
+
+.infoBar-U6oBFk .infoBarEmoji-3Ab8rZ {
+	border-radius:var(--guilds-roundness);
+}
+
+.bd-toasts .toast-inner .toast-avatar {
+	border-radius: var(--user-roundness);
+}
+
+.callAvatarVoice-29N_wG,
+.callAvatarWrapper-3Ax_xH.voice-3bPYC- .ripple-1B3VJU {
+	border-radius:var(--user-roundness);
+}
+
+.displayAvatar-1wWlVM {
+	border-radius:var(--user-roundness) !important;
+}
+
+.authBox-hW6HRx .title-jXR8lp::before {
+	border-radius:var(--user-roundness);
+}
+
+.card-3DjzTQ .guildIcon-3W0pfo {
+	border-radius:var(--guilds-roundness);
+}
+
+.gameIcon-gg34Dz {
+	border-radius:var(--user-roundness);
+}
+
+#app-mount .wrapper-3t9DeA rect {
+	rx:var(--user-roundness);
+	ry:var(--user-roundness);
+}
+
+#app-mount .wrapper-3t9DeA[style*="height: 32px"] foreignObject + svg + rect[width="25"] {
+	rx: var(--user-roundness);
+}
